@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>famail</title>
+    <link rel="stylesheet" href="/DOM Exercises/family-tree/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container p-4 min-vh-100 position-relative">
+            <h1 class="fw-bold text-center text-black-75">My small family <span class="text-success">Tree🏠</span></h1>
+            <div class="row g-3 mt-2">
+                <div class="col-12">
+                    <div class="card mx-auto shadow" style="width: 15rem;">
+                        <img src="./images/photo_2026-01-07_21-10-44.jpg" class="card-img-top object-fit-cover"
+                            alt="Shahd">
+                        <div class="card-body ">
+                            <h5 class="card-title">Shahd <small class="fs-6 text-black-50">(Mother)</small></h5>
+                            <p class="card-text">idk</p>
+                            <a href="#" class="btn btn-primary" id>Zoom In!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card mx-auto shadow" style="width: 15rem;">
+                        <img src="./images/photo_2026-01-07_21-10-48.jpg" class="card-img-top object-fit-cover"
+                            alt="Sultan">
+                        <div class="card-body ">
+                            <h5 class="card-title">Sultan <small class="fs-6 text-black-50">(Eldest Son)</small></h5>
+                            <p class="card-text">He takes his name too seriously!</p>
+                            <a href="#" class="btn btn-primary">Zoom In!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card mx-auto shadow" style="width: 15rem;">
+                        <img src="./images/photo_2026-01-07_21-10-46.jpg" class="card-img-top object-fit-cover"
+                            alt="DokDok">
+                        <div class="card-body ">
+                            <h5 class="card-title">DokDok <small class="fs-6 text-black-50">(Youngest Son)</small></h5>
+                            <p class="card-text">We also call him "Mems"; he can be anything except a cat!</p>
+                            <a href="#" class="btn btn-primary">Zoom In!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay d-none top-0 position-fixed start-0 w-100 d-flex justify-content-center pt-5 h-100">
+                <div class=" position-relative">
+                    <button class=" position-absolute border-0 bg-transparent top-0 end-0 me-2 mt-2 close"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20px" height="20px">
+                            <path
+                                d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192.5 301.3 329.9 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.8 256 375.1 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7 55.1 73.4z" />
+                        </svg></button>
+                    <img src="./images/photo_2026-01-07_21-10-44.jpg" alt="Shahd" class=" img-fluid">
+                </div>
+            </div>
+            <div class="overlay d-none top-0 position-fixed start-0 w-100 h-100 d-flex justify-content-center pt-5">
+                <div class=" position-relative">
+                    <button class=" position-absolute border-0 bg-transparent top-0 end-0 me-2 mt-2 close"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20px" height="20px">
+                            <path fill="white"
+                                d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192.5 301.3 329.9 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.8 256 375.1 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7 55.1 73.4z" />
+                        </svg></button>
+                    <img src="./images/photo_2026-01-07_21-10-48.jpg" alt="sultan" class=" img-fluid">
+                </div>
+            </div>
+            <div class="overlay d-none top-0 position-fixed start-0 w-100 h-100 d-flex justify-content-center pt-5">
+                <div class=" position-relative">
+                    <button class=" position-absolute border-0 bg-transparent top-0 end-0 me-2 mt-2 close"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20px" height="20px">
+                            <path
+                                d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192.5 301.3 329.9 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.8 256 375.1 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7 55.1 73.4z" />
+                        </svg></button>
+                    <img src="./images/photo_2026-01-07_21-10-46.jpg" alt="dkdk" class=" img-fluid">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

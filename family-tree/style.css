@@ -1,0 +1,24 @@
+body {
+    background: repeating-linear-gradient(60deg,
+            #f8f9fa,
+            #f8f9fa 10px,
+            #e9ecef 10px,
+            #e9ecef 20px);
+}
+
+.card img {
+    aspect-ratio: 1/1;
+}
+
+.overlay > div{
+    width: 20rem;
+    height: 17.5rem;
+}
+.overlay {
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overley svg:hover {
+    transform: scale(1.2);
+}
