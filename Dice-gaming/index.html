@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice game</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container p-5 min-vh-100">
+            <div class="row g-0 position-relative shadow-lg rounded-4 w-md-75 w-100 mx-auto mt-5">
+                <div class="col-6">
+                    <div id="section-0"
+                        class="rounded-start-4 bg-info py-5 d-flex flex-column align-items-center justify-content-between gap-5">
+                        <article class="mb-5 text-center text-danger text-uppercase">
+                            <p class="h1 fw-bold" id="player-0">player 1</p>
+                            <span class="fw-bold fs-1" id="score-0">0</span>
+                        </article>
+                        <div class="mt-5 bg-info border border-3  rounded-3 px-4 py-2 text-center text-white fw-bold">
+                            <p class="fs-5 text-uppercase mb-0">current</p>
+                            <span class="fs-3" id="current-0">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div id="section-1"
+                        class="rounded-end-4 bg-info py-5 d-flex non-active-player flex-column align-items-center justify-content-between gap-5">
+                        <article class="mb-5 text-center text-danger text-uppercase">
+                            <p class="h1 fw-bold" id="player-1">player 2</p>
+                            <span class="fw-bold fs-1" id="score-1">0</span>
+                        </article>
+                        <div class="mt-5 bg-info border border-3 rounded-3 px-4 py-2 text-center text-white fw-bold">
+                            <p class="fs-5 text-uppercase mb-0">current</p>
+                            <span class="fs-3" id="current-1">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button
+                        class="border-0 mt-3 position-absolute top-0 float-btn px-3 py-2 fw-medium bg-opacity-75 bg-white rounded-pill" id="new-btn">🔄️ NEW
+                        GAME
+                    </button>
+                    <div class="mt-5 position-absolute pb-4 bottom-50 d-none float-img" id="dice">
+                        <img src="./images/dice-1.png" class=" position-absolute" alt="dice">
+                    </div>
+                    <div class="mt-5 bottom-0 position-absolute pb-4 float-btn ">
+                        <button
+                            class="border-0 d-block mb-3 px-3 py-2 fw-medium bg-opacity-75 bg-white rounded-pill text-uppercase" id="roll-btn">
+                            🎲 roll dice
+                        </button>
+                        <button class="border-0 px-3 py-2 fw-medium bg-opacity-75 bg-white rounded-pill text-uppercase ms-3" id="hold-btn">
+                            🕹️ hold
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

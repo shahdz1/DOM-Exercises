@@ -1,0 +1,27 @@
+body {
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+}
+
+.float-btn {
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.float-img {
+    left: 47%;
+}
+
+.non-active-player {
+    opacity: 50%;
+}
+
+.winner-player {
+    --bs-info-rgb: 14, 174, 14;
+}
