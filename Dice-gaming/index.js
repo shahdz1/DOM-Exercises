@@ -42,7 +42,7 @@ function holdDice() {
     if (playing) {
         scores[activePlayer] += currentScore;
         document.getElementById(`score-${activePlayer}`).textContent = scores[activePlayer];
-        if (scores[activePlayer] >= 20) {
+        if (scores[activePlayer] >= 100) {
             playing = false;
             diceImage.classList.add("d-none");
             document.getElementById(`section-${activePlayer}`).classList.add("winner-player");
