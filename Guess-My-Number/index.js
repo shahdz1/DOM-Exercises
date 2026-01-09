@@ -12,7 +12,6 @@ function displayMessage(msg) {
     message.textContent = msg;
 };
 function checkNumber() {
-    console.log(secretNumber);
     guessNumber = Number(guessInput.value);
     if (!guessNumber || guessNumber < 1 || guessNumber > 20) {
         displayMessage("⚠️ Enter a number between 1 & 20 to check!")

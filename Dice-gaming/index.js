@@ -13,7 +13,6 @@ let activePlayer = 0;
 let currentScore = 0;
 let playing = true;
 
-
 function switchPlayer() {
     currentScore = 0;
     document.getElementById(`current-${activePlayer}`).textContent = 0;
@@ -23,7 +22,6 @@ function switchPlayer() {
 };
 
 function rollDice() {
-    console.log("hiihi")
     if (playing) {
         let dice = Math.trunc(Math.random() * 6) + 1;
         diceImage.classList.remove("d-none");
